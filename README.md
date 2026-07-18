@@ -23,7 +23,7 @@ Expected: True + NVIDIA GB10
 Expected:
 
 
-<img width="624" height="539" alt="image" src="https://github.com/user-attachments/assets/73249e68-c690-4b73-9de1-559c1eb1c415" />
+<img width="589" height="567" alt="image" src="https://github.com/user-attachments/assets/8e690a3c-c22c-4452-843e-7a995cc8f8e9" />
 
 
 ## Comon Q&A

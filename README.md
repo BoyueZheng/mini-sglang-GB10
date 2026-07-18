@@ -28,4 +28,10 @@ Expected:
 
 ## Comon Q&A
 - For Error `PermissionError: [Errno 13] Permission denied: '/home/xxx/.cache/huggingface/hub/models--Qwen--Qwen3-0.6B'`, change permission of the dir: sudo chown -R xxx:xxx /home/xxx/.cache/huggingface/
- For Error `torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 1920, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use`, change port ```python -m minisgl --model "Qwen/Qwen3-0.6B" --shell --port 1921```
+
+- For Error `torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 1920, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use`, change port ```python -m minisgl --model "Qwen/Qwen3-0.6B" --shell --port 1921```
+
+
+- For Error RuntimeError: ... TllmGenFmhaRunner ... Unsupported architecture, the auto-selected trtllm attention backend does not support GB10 (sm_121). Use --attention-backend fi (flashinfer) instead:
+
+```python -m minisgl --model "Qwen/Qwen3-0.6B" --shell --attention-backend fi```

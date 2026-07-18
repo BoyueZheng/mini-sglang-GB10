@@ -21,6 +21,8 @@ Expected: True + NVIDIA GB10
 ## Step 4: Continue following remaining steps in mini-sglang [quick start](https://github.com/sgl-project/mini-sglang#-quick-start) 
 
 Expected:
+
+
 <img width="624" height="539" alt="image" src="https://github.com/user-attachments/assets/73249e68-c690-4b73-9de1-559c1eb1c415" />
 
 

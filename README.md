@@ -20,6 +20,9 @@ Expected: True + NVIDIA GB10
 
 ## Step 4: Continue following remaining steps in mini-sglang [quick start](https://github.com/sgl-project/mini-sglang#-quick-start) 
 
+Expected:
+<img width="624" height="539" alt="image" src="https://github.com/user-attachments/assets/73249e68-c690-4b73-9de1-559c1eb1c415" />
+
 
 ## Comon Q&A
 - For Error `PermissionError: [Errno 13] Permission denied: '/home/xxx/.cache/huggingface/hub/models--Qwen--Qwen3-0.6B'`, change permission of the dir: sudo chown -R xxx:xxx /home/xxx/.cache/huggingface/
